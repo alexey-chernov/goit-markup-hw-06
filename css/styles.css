@@ -258,9 +258,6 @@ li.active > a {
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
-  /*padding-left: 10%;
-  padding-right: 10%;
-  width: auto;*/
   font-size: small;
   list-style-type: none;
   display: flex;
@@ -317,9 +314,6 @@ li.active > a {
 .ourworking {
   padding-top: 100px;
   padding-bottom: 50px;
-  /*padding-left: 10%;
-  padding-right: 10%;*/
-  /*width: 100%;*/
   align-content: center;
   font-size: small;
   list-style-type: none;
@@ -364,21 +358,9 @@ li.active > a {
   justify-content: center;
 }
 
-.team-section {
-  padding-top: 94px;
-  background: var(--light-grey-color);
-  margin: auto;
-  display: block;
-  text-align: center;
-  max-width: 100%;
-}
-
 .ourcommand {
   padding-top: 100px;
   padding-bottom: 50px;
-  /*padding-left: 10%;
-  padding-right: 10%;*/
-  /*width: 100%;*/
   margin: 15px;
   align-content: center;
   text-align: center;
@@ -386,6 +368,12 @@ li.active > a {
   list-style-type: none;
   display: flex;
   justify-content: center;
+}
+
+.ourcommand-card {
+  margin: 0 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  border-radius: 4px;
 }
 
 .working-command-title {
